@@ -14,6 +14,7 @@
     <body>
         <a href = "home.jsp">Home</a>
         <a href = "profile.jsp">Profile</a>
+        <a href="logOutServlet">Logout</a>
         <h1>Hello World! <%=session.getAttribute("username")%></h1>
     </body>
 </html>
